@@ -1,0 +1,250 @@
+{
+  "Metadata": {
+    "title": "{brand} — Made for the shadow",
+    "description": "Heavyweight streetwear from Riyadh. {brand} Drop 01 lands at totality, 2 August 2027.",
+    "ogAlt": "A young man in a black hoodie looks up at a total solar eclipse over the city"
+  },
+  "Common": {
+    "skipToContent": "Skip to content",
+    "newTab": "opens in a new tab",
+    "currency": "SAR",
+    "sample": "Sample"
+  },
+  "Language": {
+    "label": "Switch language",
+    "targetName": "العربية"
+  },
+  "Header": {
+    "home": "{brand}, back to the top",
+    "navLabel": "Main",
+    "nav": {
+      "drop": "Drop 01",
+      "shop": "Shop",
+      "fit": "Your size",
+      "delivery": "Delivery"
+    },
+    "bag": "Bag",
+    "bagCount": "{count, plural, =0 {Bag, empty} one {Bag, # item} other {Bag, # items}}",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuTitle": "Menu"
+  },
+  "Loader": {
+    "label": "The moon is crossing"
+  },
+  "Eclipse": {
+    "label": "Eclipse",
+    "phases": {
+      "first": "First contact",
+      "partial": "Partial",
+      "totality": "Totality",
+      "diamond": "Diamond ring",
+      "third": "Third contact",
+      "last": "Last contact"
+    }
+  },
+  "Hero": {
+    "lineA": "Made for",
+    "lineB": "the shadow.",
+    "sub": "Heavyweight streetwear from Riyadh. Drop 01 lands the second the sun goes out.",
+    "shop": "Shop Drop 01",
+    "fit": "Find your size",
+    "scroll": "Scroll into totality",
+    "beatA": "The light goes",
+    "beatB": "first.",
+    "beatC": "Two minutes",
+    "beatD": "of night at noon.",
+    "totality": "Totality.",
+    "imageAlt": "A young man in a black hoodie looks up at a total solar eclipse over the city"
+  },
+  "Statement": {
+    "eyebrow": "Totality",
+    "a": "At noon the moon",
+    "b": "covers the sun, the streetlights",
+    "c": "come on, and the whole city",
+    "d": "turns black on black.",
+    "body": "Umbra is the darkest part of a shadow, where the light is completely blocked. We make heavy blacks for it: 420 GSM fleece, tonal embroidery, nothing loud."
+  },
+  "Drop": {
+    "eyebrow": "Drop 01",
+    "title": "Lands the second the sun goes out.",
+    "date": "2 August 2027 · Jeddah, in the path of totality",
+    "units": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Min",
+      "seconds": "Sec"
+    },
+    "live": "The drop is live.",
+    "pieces": "{count} pieces · {units} made, never remade",
+    "cta": "See the pieces"
+  },
+  "Shop": {
+    "eyebrow": "The pieces",
+    "title": "Nine pieces. All of them black.",
+    "tabsLabel": "Categories",
+    "size": "Size",
+    "oneSize": "One size",
+    "add": "Add to bag",
+    "added": "Added",
+    "left": "{count} left",
+    "pricesNote": "Prices in Saudi riyals, VAT included."
+  },
+  "Signature": {
+    "eyebrow": "Maximum eclipse",
+    "title": "The Totality Hoodie.",
+    "specs": [
+      "420 GSM loop-back fleece",
+      "Double-lined hood, no drawcord eyelets",
+      "Tonal ring with one ember bead",
+      "Boxy fit, dropped shoulder"
+    ],
+    "worn": "Worn under the eclipse"
+  },
+  "Details": {
+    "eyebrow": "The corona",
+    "title": "Built heavy, finished quiet.",
+    "steps": {
+      "fleece": {
+        "title": "420 GSM fleece",
+        "body": "Loop-back cotton, brushed inside, washed twice so it never shrinks on you."
+      },
+      "ring": {
+        "title": "One ember bead",
+        "body": "The ring is stitched black on black. The only colour on the piece is one bead, the last light before totality."
+      },
+      "hardware": {
+        "title": "Matte hardware",
+        "body": "Cord tips, clasps and zips in matte black metal. Nothing catches the light."
+      }
+    }
+  },
+  "Fit": {
+    "eyebrow": "The diamond ring",
+    "title": "Four questions, one size.",
+    "intro": "Tell us how you like it to fall. We'll pick the piece and the size.",
+    "progress": "Question {current} of {total}",
+    "done": "Your size",
+    "next": "Next",
+    "back": "Back",
+    "seeResult": "Show my size",
+    "chooseOne": "Choose one to continue.",
+    "reset": "Start again",
+    "questions": {
+      "piece": {
+        "legend": "What are you after?",
+        "hoodie": "Hoodie",
+        "hoodieHint": "The heavy one",
+        "tee": "Tee",
+        "teeHint": "Every day",
+        "cargo": "Cargo",
+        "cargoHint": "Wide leg"
+      },
+      "height": {
+        "legend": "How tall are you?",
+        "short": "Under 170 cm",
+        "shortHint": "",
+        "mid": "170 to 182 cm",
+        "midHint": "",
+        "tall": "Over 182 cm",
+        "tallHint": ""
+      },
+      "build": {
+        "legend": "Your build?",
+        "slim": "Slim",
+        "slimHint": "",
+        "regular": "Regular",
+        "regularHint": "",
+        "broad": "Broad",
+        "broadHint": ""
+      },
+      "fall": {
+        "legend": "How should it fall?",
+        "true": "True to size",
+        "trueHint": "Clean shoulder",
+        "roomy": "Roomy",
+        "roomyHint": "Room to move",
+        "oversized": "Oversized",
+        "oversizedHint": "Long and wide"
+      }
+    },
+    "result": {
+      "eyebrow": "Your piece",
+      "size": "Size {size}",
+      "because": "Because: {summary}"
+    }
+  },
+  "Crowd": {
+    "eyebrow": "Third contact",
+    "title": "Everyone under the same shadow.",
+    "captions": {
+      "rooftop": "The ring over the city",
+      "diamond": "Diamond ring, 13:24",
+      "towers": "Lights on at noon",
+      "returns": "The light comes back",
+      "turned": "Hood up",
+      "lookingUp": "Two minutes",
+      "deepening": "Getting darker",
+      "corona": "Corona",
+      "plaza": "Noon, 13:24",
+      "lattice": "Every gap becomes a light",
+      "latticeClose": "Shadow on shadow",
+      "birds": "The birds think it’s night"
+    }
+  },
+  "Delivery": {
+    "eyebrow": "The light returns",
+    "title": "At your door before the next shadow.",
+    "items": {
+      "kingdom": {
+        "title": "Across the Kingdom",
+        "body": "2 to 4 working days to every city, tracked."
+      },
+      "free": {
+        "title": "Free over {amount} SAR",
+        "body": "{shipping} SAR below that, one flat rate."
+      },
+      "returns": {
+        "title": "14-day returns",
+        "body": "Unworn, tags on. We collect it from you."
+      },
+      "cod": {
+        "title": "Pay how you like",
+        "body": "Mada, Apple Pay, or cash on delivery."
+      }
+    },
+    "whatsapp": "Questions on WhatsApp"
+  },
+  "Bag": {
+    "title": "Your bag",
+    "close": "Close bag",
+    "empty": "Your bag is empty. The drop isn't.",
+    "browse": "See the pieces",
+    "size": "Size {size}",
+    "remove": "Remove",
+    "increase": "One more",
+    "decrease": "One less",
+    "subtotal": "Subtotal",
+    "shipping": "Delivery",
+    "free": "Free",
+    "total": "Total",
+    "untilFree": "{amount} SAR more for free delivery",
+    "checkout": "Order on WhatsApp",
+    "message": "Hi {brand}, I'd like to order:",
+    "note": "We confirm stock and payment on WhatsApp."
+  },
+  "Footer": {
+    "closing": "Last contact. The sun is whole again.",
+    "rights": "© {year} {brand}. All rights reserved.",
+    "backToTop": "Back into the shadow",
+    "contact": "Contact",
+    "shop": "Shop",
+    "info": "Info",
+    "sampleNote": "Working name and sample details. Campaign imagery generated with AI."
+  },
+  "NotFound": {
+    "title": "Lost in the shadow.",
+    "body": "This page doesn't exist.",
+    "home": "Back to the drop"
+  }
+}
