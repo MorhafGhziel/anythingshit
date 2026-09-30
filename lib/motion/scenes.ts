@@ -116,7 +116,11 @@ function heroFilm(gsap: Gsap, duration: number) {
       start: 'top top',
       end: 'bottom bottom',
       scrub: 0.5,
-      onUpdate: (self) => stage.style.setProperty('--film-p', self.progress.toFixed(4)),
+      onUpdate: (self) => {
+        stage.style.setProperty('--film-p', self.progress.toFixed(4));
+        // Once the camera drops to the bright ground, the header switches to dark text.
+        track.dataset.liveTone = self.progress > 0.66 && self.progress < 0.93 ? 'dark' : 'light';
+      },
     },
   });
 

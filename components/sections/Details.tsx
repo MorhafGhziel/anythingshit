@@ -1,13 +1,13 @@
 import { useTranslations } from 'next-intl';
 import { eclipseAttrs } from '@/content/eclipse';
 import { sectionIds } from '@/content/navigation';
-import { latticeLoop } from '@/content/site';
+import { coronaLoop } from '@/content/site';
 import { cssVars } from '@/lib/style';
 import { LoopFilm } from './LoopFilm';
 
 const STEPS = ['fleece', 'ring', 'hardware'] as const;
 
-/** The corona: how the pieces are made, as three cards that stack as you scroll, beside the lattice film. */
+/** The corona: how the pieces are made, as three cards that stack as you scroll, beside the corona film. */
 export function Details() {
   const t = useTranslations('Details');
   return (
@@ -20,7 +20,7 @@ export function Details() {
               {t('title')}
             </h2>
             <div className="loop-frame rv mt-10" style={cssVars({ '--i': 2 })}>
-              <LoopFilm {...latticeLoop} className="loop-video" />
+              <LoopFilm {...coronaLoop} className="loop-video" />
             </div>
           </div>
         </div>

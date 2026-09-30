@@ -663,8 +663,8 @@
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(to bottom, rgb(6 7 11 / 0.45) 0%, transparent 22%),
-    linear-gradient(to top, rgb(6 7 11 / 0.85) 0%, rgb(6 7 11 / 0.35) 38%, transparent 62%);
+    linear-gradient(to bottom, rgb(6 7 11 / 0.4) 0%, transparent 20%),
+    linear-gradient(to top, rgb(239 234 226 / 0.55) 0%, rgb(239 234 226 / 0.15) 30%, transparent 48%);
 }
 
 .film-copy {
@@ -672,6 +672,13 @@
   inset: 0;
   z-index: 3;
   pointer-events: none;
+  /* The plaza is bright: black type, with a soft light halo for the frames where it crosses him. */
+  color: var(--void);
+  text-shadow: 0 0 28px rgb(239 234 226 / 0.55);
+}
+
+.film-copy .btn {
+  text-shadow: none;
 }
 
 .film-copy a {
@@ -722,7 +729,7 @@
   margin-block-start: 1.2rem;
   font-size: 1.1rem;
   line-height: 1.55;
-  color: color-mix(in srgb, var(--corona) 85%, transparent);
+  color: color-mix(in srgb, var(--void) 80%, transparent);
 }
 
 .film-foot {
@@ -731,7 +738,7 @@
   bottom: clamp(1rem, 3svh, 1.75rem);
   display: flex;
   justify-content: flex-end;
-  color: color-mix(in srgb, var(--corona) 75%, transparent);
+  color: color-mix(in srgb, var(--void) 75%, transparent);
 }
 
 .film-progress {
@@ -739,7 +746,7 @@
   inset-inline: 0;
   bottom: 0;
   block-size: 2px;
-  background: var(--corona);
+  background: var(--void);
   transform: scaleX(var(--film-p, 0));
   transform-origin: var(--origin);
 }
@@ -830,9 +837,46 @@
   }
 }
 
+/* Phones: he stands in the centre of the portrait crop, so the copy moves up into the grey sky, in light type. */
 @media (max-width: 767px) {
+  .film-copy {
+    color: var(--corona);
+    text-shadow: 0 1px 24px rgb(6 7 11 / 0.55);
+  }
+
+  .film-shade {
+    background:
+      linear-gradient(to bottom, rgb(6 7 11 / 0.7) 0%, rgb(6 7 11 / 0.35) 38%, transparent 56%),
+      linear-gradient(to top, rgb(239 234 226 / 0.35) 0%, transparent 25%);
+  }
+
+  .film-intro {
+    top: 5.75rem;
+    bottom: auto;
+  }
+
+  .film-sub {
+    color: color-mix(in srgb, var(--corona) 88%, transparent);
+  }
+
+  .film-intro .btn-dark {
+    background: var(--corona);
+    color: var(--void);
+  }
+
   .film-beat {
-    bottom: 8rem;
+    top: 6.5rem;
+    bottom: auto;
+    text-align: start;
+  }
+
+  .film-foot {
+    color: var(--void);
+    text-shadow: none;
+  }
+
+  .film-progress {
+    background: var(--corona);
   }
 }
 

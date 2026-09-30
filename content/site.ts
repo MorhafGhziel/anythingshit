@@ -5,25 +5,25 @@
 export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000').replace(/\/$/, '');
 
 /**
- * The hero film: three generated shots cut together. The first shot plays in reverse, so the light
- * drains out of the sky; the second holds on totality; the third tilts up to the corona and ends on black.
- * Every frame is within 8 of a keyframe so scroll can seek almost instantly. File names carry a
- * content hash: /media is cached for a year, so a changed file must get a new name.
+ * The hero film: three generated shots of the plaza cut together. He stands under the eclipse at noon,
+ * the birds settle, then the camera drops as a lattice shadow scatters light across the ground, and the
+ * frame fades to black: totality. Every frame is within 8 of a keyframe so scroll can seek almost
+ * instantly. File names carry a content hash: /media is cached for a year.
  */
 export const media = {
   hero: {
-    desktopImage: { src: '/media/hero/film-desktop-poster.eede9e42.webp', width: 1920, height: 1080 },
-    mobileImage: { src: '/media/hero/film-mobile-poster.3be1e1e7.webp', width: 720, height: 1280 },
-    desktopFilm: { mp4: '/media/hero/film-desktop.4435f0cc.mp4', webm: '/media/hero/film-desktop.2bfeeb9a.webm' },
-    mobileFilm: { mp4: '/media/hero/film-mobile.054cf13b.mp4', webm: '/media/hero/film-mobile.bea4ff21.webm' },
+    desktopImage: { src: '/media/hero/film-desktop-poster.0f0ddbc6.webp', width: 1920, height: 1080 },
+    mobileImage: { src: '/media/hero/film-mobile-poster.529a7aca.webp', width: 720, height: 1280 },
+    desktopFilm: { mp4: '/media/hero/film-desktop.994cf483.mp4', webm: '/media/hero/film-desktop.d650cce9.webm' },
+    mobileFilm: { mp4: '/media/hero/film-mobile.95bf71af.mp4', webm: '/media/hero/film-mobile.3c9153fa.webm' },
     duration: 8.54,
   },
   og: { src: '/media/og/og.jpg', width: 1200, height: 630 },
 } as const;
 
-/** The lattice shot: the camera drops as a mashrabiya shadow scatters light across the plaza. */
-export const latticeLoop = {
-  mp4: '/media/loops/lattice.3f8c8019.mp4',
-  webm: '/media/loops/lattice.19f26df7.webm',
-  poster: '/media/loops/lattice-poster.e57e843b.webp',
+/** The corona shot: the camera tilts up from the hood to the corona and the frame goes to stars. */
+export const coronaLoop = {
+  mp4: '/media/loops/corona.89f522bf.mp4',
+  webm: '/media/loops/corona.1e618ee6.webm',
+  poster: '/media/loops/corona-poster.7cb1f4f4.webp',
 } as const;

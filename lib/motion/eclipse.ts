@@ -100,7 +100,7 @@ export function startEclipse(): () => void {
       let under = stops[0]!;
       for (const stop of stops) if (stop.top <= y + 48) under = stop;
       const onFilm = under === stops[0] && under.el.hasAttribute('data-film-track');
-      header.dataset.tone = onFilm ? 'light' : under.tone;
+      header.dataset.tone = onFilm ? (under.el.dataset.liveTone ?? 'light') : under.tone;
       header.dataset.glass = String(!onFilm);
     }
   };

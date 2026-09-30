@@ -38,7 +38,7 @@ export function Delivery({ locale }: { locale: Locale }) {
           </div>
         </div>
         <div className="delivery-photo rv lg:col-span-5 lg:col-start-8" style={cssVars({ '--i': 2 })}>
-          <Image src={photos.plaza.src} width={photos.plaza.width} height={photos.plaza.height} alt={photos.plaza.alt[locale]} sizes="(max-width: 1023px) 92vw, 40vw" quality={78} style={{ objectPosition: '50% 50%' }} />
+          <Image src={photos.returns.src} width={photos.returns.width} height={photos.returns.height} alt={photos.returns.alt[locale]} sizes="(max-width: 1023px) 92vw, 40vw" quality={78} style={{ objectPosition: '50% 50%' }} />
         </div>
       </div>
     </section>

@@ -16,7 +16,7 @@ export interface EclipseStop {
 }
 
 export const eclipse = {
-  top: { sky: '#58606d', tone: 'light', phase: 'partial', moon: -0.35 },
+  top: { sky: '#3a3b3f', tone: 'light', phase: 'partial', moon: -0.35 },
   statement: { sky: '#06070b', tone: 'light', phase: 'totality', moon: 0 },
   drop: { sky: '#06070b', tone: 'light', phase: 'totality', moon: 0 },
   shop: { sky: '#0b1020', tone: 'light', phase: 'totality', moon: 0 },

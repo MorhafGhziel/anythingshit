@@ -11,8 +11,8 @@ const DESKTOP_SIZES = '(min-aspect-ratio: 16/9) 100vw, 178vh';
 const MOBILE_SIZES = '100vw';
 
 /**
- * The opening: the campaign film follows the scroll. The light drains out of the sky, the moon
- * covers the sun, the camera tilts up to the corona and the frame goes black: totality.
+ * The opening: the campaign film follows the scroll. He stands on a pale plaza under the eclipse at
+ * noon, the birds settle, the camera drops into the lattice shadow and the frame goes black: totality.
  * Without JavaScript or with reduced motion it is a single, fully readable frame.
  */
 export function HeroFilm() {
@@ -57,7 +57,7 @@ export function HeroFilm() {
               {t('sub')}
             </p>
             <div className="mt-8 flex flex-wrap gap-3" data-hero-fade="cta">
-              <ActionLink href={`#${sectionIds.shop}`} variant="light">
+              <ActionLink href={`#${sectionIds.shop}`} variant="dark">
                 {t('shop')}
               </ActionLink>
               <ActionLink href={`#${sectionIds.fit}`} variant="line">
